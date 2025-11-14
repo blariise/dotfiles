@@ -1,0 +1,32 @@
+# BEHAVIOUR
+drun-launch = true
+#multi-instance = false //default true
+text-cursor = true
+
+# STYLE
+
+## FONT
+font = "MonaspaceNeonVar"
+font-size = 20
+font-variations = "wght 500"
+text-color = #FFFFFF
+
+## WINDOW
+background-color = #15161A
+width = 20%
+height = 30%
+
+## BORDER
+outline-width = 0
+border-width = 3
+border-color = #FFFFFF
+corner-radius = 20
+
+## PROMPT
+prompt-text = ">> "
+text-cursor-style = underscore
+
+## RESULTS
+result-spacing = 10
+
+padding-top = 2%
