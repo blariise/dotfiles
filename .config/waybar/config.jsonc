@@ -1,0 +1,44 @@
+{
+  "layer": "top",
+  "position": "top",
+  "margin": "5 5 0 5",
+  "height": 25,
+  "spacing": 10,
+  "width": 300,
+  
+  // MUSIC module MPRIS or MPD
+  "modules-left": [],
+  "modules-center": ["hyprland/window", "hyprland/workspaces", "clock"],
+  "modules-right":  [],
+  
+  "hyprland/window": {
+    "format": "{class}",
+    "rewrite": {
+      "":                             " --------- ",
+      "kitty":                        "   kitty   ",
+      "brave-browser":                "   Brave   ",
+      "^calibre-.*":                  "  Calibre  ",
+      "TeamSpeak 3":                  "    TS3    ",
+      "org.openrgb.OpenRGB":          "  OpenRGB  ",
+      "com.obsProject.Studio":        "    OBS    ",
+      "Anki":                         "    Anki   ",
+      "org.qbittorrent.qBittorrent":  "  Torrent  "
+    },
+    "separate-outputs": true
+  },
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+	  "format-icons": {
+		  "active": "◉",
+		  "default": "○"
+	  },
+    "persistent-workspaces": {
+      "*": 5
+    }
+  },
+
+  "clock": {
+    "tooltip" : "false"
+  }
+}

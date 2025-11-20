@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "MonaspaceNeonVar";
+  font-weight: bold;
+  color: #FFF;
+}
+
+window#waybar {
+  background-color: #0F0F0F;
+  border-radius: 10px;
+}
+
+#window {
+  padding-top: 2px;
+}
+
+#workspaces button.active {
+  font-size: 1.2rem;
+}
+
+#clock {
+  padding-top: 2px;
+  padding-left: 18px;
+  padding-right: 1px;
+}
+
